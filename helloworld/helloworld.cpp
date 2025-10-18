@@ -1,5 +1,5 @@
 /*First c++ program :)
- * Made By Sahibjot
+ * Made By minispiki
  */
 
 #include <iostream> // main lib
