@@ -15,11 +15,13 @@ int main() {
     cout << greet << "\n";
 
     // Lets see how long THAT string is
-    cout << "The size of the var 'greet' is " << greet.size() << " characters long. \n";
+    int greetsize = greet.size();
+    cout << "The size of the var 'greet' is " << greetsize << " characters long. \n";
 
     // Add strings together
     string greetp2 = ", to this project! ";
     string result;
     result = greet + greetp2;
     cout << result << "\n";
+    cout << "Now, the size is " << result.size() << "\n";
 }
