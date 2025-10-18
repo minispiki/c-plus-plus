@@ -5,3 +5,4 @@
 
 ## Compiling
 Go into a directory with ```cd``` (obv) and run ```g++ <cpp file> -o <bin name>```
+**IT IS RECOMMENDED TO COMPILE WITHOUT A FILE EXTENSION SO IT DOESNT GET ADDED TO THE REPO**
