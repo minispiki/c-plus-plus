@@ -1,7 +1,7 @@
-# This was originally ment to remove all bin files but will be replaced with .o
+# This was originally ment to remove all bin files but will be replaced with .out
 #*
 #!*.*
 #!*/
 
-# Remove all bin files
-*.o
+# Prevent all bin files from being tracked
+*.out

@@ -3,8 +3,11 @@
 
 **Any help will be appreciated!**
 
+## Structure
+All projects get their own directory with the cpp file named ```main```
+
 ## Compiling
-Go into a directory with ```cd``` (obv) and run ```g++ <cpp file> -o <bin name>.o```
+Go into a directory with ```cd``` (obv) and run ```g++ main.cpp -o <bin name>.out```
 
 *Note*
 **IT WAS RECOMMENDED TO COMPILE WITHOUT A FILE EXTENSION SO IT DIDNT GET ADDED TO THE REPO
