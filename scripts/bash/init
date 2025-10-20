@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+export ROOT_DIR="$(pwd)"
+
+compile() {
+    g++ main.cpp
+}
+
+run() {
+    ./a.out
+}
+
+clean() {
+    git clean -xf $ROOT_DIR
+}
