@@ -1,3 +1,7 @@
-*
-!*.*
-!*/
+# This was originally ment to remove all bin files but will be replaced with .o
+#*
+#!*.*
+#!*/
+
+# Remove all bin files
+*.o
