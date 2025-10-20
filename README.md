@@ -4,7 +4,7 @@
 **Any help will be appreciated!**
 
 ## INIT
-Run ```source scripts/bash/init```, this will also add a var called $ROOT_DIR
+Run ```source scripts/bash/init``` in the root dir, this will also add a var called $ROOT_DIR.
 
 ## Structure
 All projects get their own directory with the cpp file named ```main```
