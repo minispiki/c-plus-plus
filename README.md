@@ -17,7 +17,7 @@ or run ```compile``` after **INIT**.
 use ```./<binname>``` or ```run```
 
 ## Cleaning up
-To remove all bin files run ```git clean -xf $ROOT_DIR``` or ```clean```
+To remove all bin files (and files not tracked by git) run ```git clean -xf $ROOT_DIR``` or ```clean```
 
 *Note*
 **IT WAS RECOMMENDED TO COMPILE WITHOUT A FILE EXTENSION SO IT DIDNT GET ADDED TO THE REPO
