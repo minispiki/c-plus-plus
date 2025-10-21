@@ -1,9 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
     int age;
-    string name;
+    string name, sentence;
     float num1, num2, ans;
     cout << "Hello, World! \nHow old are you? ";
     cin >> age; // Only works with one word
@@ -12,7 +13,10 @@ int main() {
     cout << "Hello, " << name << " !\nLets add some numbers!";
     cin >> num1 >> num2;
     ans = num1 + num2;
-    cout << "The answer will be " << ans << " !\n";
+    cout << "The answer will be " << ans << " !\nNow, how about a sentence? \n";
+    cin.ignore(); // Ignore stuff before the getline.
+    getline(cin, sentence); // Allow entire string
+    cout << "Nice sentence! It is " << sentence.size() << " letters long! \n";
 
 
 }
