@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath> // math lib
 using namespace std;
 
 int main() {
@@ -19,4 +20,14 @@ int main() {
     numbers/=10; /* divide by 10
     numbers = numbers / 10; */
     cout << numbers << "\n";
+
+    // Powers
+    numbers = pow(numbers, 2); // power of 2 (100*100)
+    cout << numbers << "\n";
+
+    // Square root
+    numbers = sqrt(numbers);
+    cout << numbers << "\n";
+
+
 }
