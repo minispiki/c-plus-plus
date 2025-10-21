@@ -29,5 +29,10 @@ int main() {
     numbers = sqrt(numbers);
     cout << numbers << "\n";
 
+    // PI
+     double area, radius = 1.5; // double floating point
+     area = M_PI /*Value of pi */ * radius * radius;
+     cout << area << "\n";
+
 
 }
